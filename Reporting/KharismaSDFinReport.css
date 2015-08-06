@@ -1,0 +1,29 @@
+﻿body
+{
+    font-family: Calibri;
+    font-size: 11px;
+}
+
+.tableborder
+{
+    border: 0.5px solid #666666;
+}
+
+.Container
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+}
+
+.Footer {
+   position:relative;
+   bottom:0;
+   width:100%;
+}
+.HeaderLine
+{
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #333333;
+}

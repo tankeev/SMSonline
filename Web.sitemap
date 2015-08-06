@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    
+    <siteMapNode url="Coordinators/Default.aspx" title="Coordinator's Home"  description="Coordinator Home">
+
+        <siteMapNode url="Coordinators/AssessmentsDefault.aspx" title="Assessments"  description="Assessments"> 
+            
+        <siteMapNode url="Coordinators/AssessmentsByCourses.aspx" title="Assessments By Courses"  description="Assessments By Courses" />
+        <siteMapNode url="Coordinators/AssessmentsBySchoolTypes.aspx" title="Assessments By School Types"  description="Assessments By School Types" />
+        <siteMapNode url="Coordinators/AssessmentsBySchoolTypesAll.aspx" title="Assessments By Courses"  description="Assessments By Courses" />
+        <siteMapNode url="Coordinators/AssessmentsByStudents.aspx" title="Assessments By Students"  description="Assessments By Students" />
+        <siteMapNode url="Coordinators/AssessmentsByTeachers.aspx" title="Assessments By Teachers"  description="Assessments By Teachers" />
+            
+        </siteMapNode>
+
+        <siteMapNode url="Coordinators/AttendanceDefault.aspx" title="Attendance"  description="Attendance">
+            
+        <siteMapNode url="Coordinators/AttendanceArchive.aspx" title="Attendance Archive"  description="Attendance Archive" />
+        <siteMapNode url="Coordinators/AttendanceChecklist.aspx" title="Attendance Checklist"  description="Attendance Checklist" />
+        <siteMapNode url="Coordinators/AttendanceJournals.aspx" title="Attendance Journals"  description="Attendance Journals" />
+        <siteMapNode url="Coordinators/AttendanceLeaves.aspx" title="Attendance Leaves"  description="Attendance Leaves" />
+        <siteMapNode url="Coordinators/AttendanceReports.aspx" title="Attendance Reports"  description="Attendance Reports" />
+        <siteMapNode url="Coordinators/AttendanceTotal.aspx" title="Attendance Total"  description="Attendance Total" />
+
+        </siteMapNode>
+
+        <siteMapNode url="Coordinators/UsersDefault.aspx" title="Users"  description="Users">
+            
+        <siteMapNode url="Coordinators/UsersAccounts.aspx" title="Users Accounts"  description="Users Accounts" />
+        <siteMapNode url="Coordinators/UsersParents.aspx" title="Users Parents"  description="Users Parents" />
+        <siteMapNode url="Coordinators/UsersParentsAdd.aspx" title="Users Parents Add New"  description="Users Parents Add New" />
+        <siteMapNode url="Coordinators/UsersSearch.aspx" title="Users Search"  description="Users Search" />
+        <siteMapNode url="Coordinators/UsersStaff.aspx" title="Users Staff"  description="Users Staff" />
+        <siteMapNode url="Coordinators/UsersStaffAdd.aspx" title="Users Staff Add New"  description="Users Staff Add New" />
+        <siteMapNode url="Coordinators/UsersStudents.aspx" title="Users Students"  description="Users Students" />
+
+        </siteMapNode>
+
+        <siteMapNode url="DisciplineDefault.aspx" title="Discipline"  description="Discipline">
+            
+        <siteMapNode url="DisciplineAddBonusPoints.aspx" title="Discipline Add Bonus Points"  description="Discipline Add Bonus Points" />
+        <siteMapNode url="DisciplineAddDisciplinePoints.aspx" title="Discipline Add Discipline Points"  description="Discipline Add Discipline Points" />
+        <siteMapNode url="DisciplineChecklist.aspx" title="Discipline Checklist"  description="Discipline Checklist" />
+        <siteMapNode url="DisciplineStudentPoints.aspx" title="Discipline Student Points"  description="Discipline Student Points" />
+
+        </siteMapNode>
+
+        <siteMapNode url="MPEResultsDefault.aspx" title="MPE Results"  description="MPE Results">
+
+            <siteMapNode url="MPEResultsByCourses.aspx" title="MPE Results By Courses"  description="MPE Results By Courses" />
+            <siteMapNode url="MPEResultsByRanking.aspx" title="MPEResultsByRanking"  description="MPEResultsByRanking" />
+            <siteMapNode url="MPEResultsByScores.aspx" title="MPE Results By Scores"  description="MPE Results By Scores" />
+            <siteMapNode url="MPEResultsEvaluation.aspx" title="MPE Results Evaluation"  description="MPE Results Evaluation" />
+            <siteMapNode url="MPEResultsUpload.aspx" title="MPE Results Upload"  description="MPE Results Upload" />
+
+        </siteMapNode>
+
+        <siteMapNode url="ReportCardsDefault.aspx" title="Report Cards Default"  description="Report Cards Default">
+
+            <siteMapNode url="ReportCardsCourseAverages.aspx" title="Report Cards Course Averages"  description="Report Cards Course Averages" />
+            <siteMapNode url="ReportCardsCourseAveragesGrouped.aspx" title="Report Cards Course Averages"  description="Report Cards Course Averages" />
+            <siteMapNode url="ReportCardsRanking.aspx" title="Report Cards Ranking"  description="Report Cards Ranking" />
+            <siteMapNode url="ReportCardsReportAverages.aspx" title="Report Cards Report Averages"  description="Report Cards Report Averages" />
+            <siteMapNode url="ReportCardsSettings.aspx" title="Report Cards Settings"  description="Report Cards Settings" />
+            <siteMapNode url="ReportCardsSkillsComments.aspx" title="Report Cards Skills Comments"  description="Report Cards Skills Comments" />
+
+        </siteMapNode>
+
+        <siteMapNode url="" title=""  description="">
+
+            <siteMapNode url="" title=""  description="" />
+
+        </siteMapNode>
+
+        <siteMapNode url="" title=""  description="">
+
+            <siteMapNode url="" title=""  description="" />
+
+        </siteMapNode>
+
+        <siteMapNode url="" title=""  description="">
+
+            <siteMapNode url="" title=""  description="" />
+
+        </siteMapNode>
+        
+        <siteMapNode url="" title=""  description="">
+
+            <siteMapNode url="" title=""  description="" />
+
+        </siteMapNode>
+        
+    </siteMapNode>
+    
+</siteMap>

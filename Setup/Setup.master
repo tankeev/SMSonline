@@ -1,0 +1,129 @@
+﻿<%@ Master Language="VB" CodeFile="Setup.master.vb" Inherits="Setup_Master" MasterPageFile="~/Site.Master" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
+    <asp:ContentPlaceHolder ID="ChildHead" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
+    <div class="content-left">
+        <h2>
+            SETUP</h2>
+        <br />
+        <asp:Menu ID="MenuMainGeneral" runat="server" ForeColor="Maroon">
+            <Items>
+                <asp:MenuItem ImageUrl="~/Setup/Images/sub-menu-alt-24.png" Text="&amp;nbsp;Academic Settings"
+                    Value="0">
+                    <asp:MenuItem ImageUrl="~/Setup/Images/sub-menu-alt-24.png" NavigateUrl="~/Setup/AcademicTerms.aspx"
+                        Text="&amp;nbsp;Academic Terms" Value="0"></asp:MenuItem>
+                    <asp:MenuItem ImageUrl="~/Setup/Images/sub-menu-alt-24.png" NavigateUrl="~/Setup/Sections.aspx"
+                        Text="&amp;nbsp;Academic Sections" Value="0"></asp:MenuItem>
+                    <asp:MenuItem ImageUrl="~/Setup/Images/sub-menu-alt-24.png" NavigateUrl="~/Setup/Courses.aspx"
+                        Text="&amp;nbsp;Academic Courses" Value="0"></asp:MenuItem>
+                    <asp:MenuItem ImageUrl="~/Setup/Images/sub-menu-alt-24.png" NavigateUrl="~/Setup/CoursesSections.aspx"
+                        Text="&amp;nbsp;Academic Course Sections" Value="0">
+                        <asp:MenuItem ImageUrl="~/Setup/Images/sub-menu-alt-24.png" NavigateUrl="~/Setup/CoursesAdd.aspx"
+                            Text="&amp;nbsp;Add Students" Value="0"></asp:MenuItem>
+                        <asp:MenuItem ImageUrl="~/Setup/Images/sub-menu-alt-24.png" NavigateUrl="~/Setup/CoursesReset.aspx"
+                            Text="&amp;nbsp;Remove Students" Value="0"></asp:MenuItem>
+                        <asp:MenuItem ImageUrl="~/Setup/Images/sub-menu-alt-24.png" NavigateUrl="~/Setup/CoursesSectionsAdd.aspx"
+                            Text="&amp;nbsp;Add Course Sections" Value="&amp;nbsp;Add Course Sections"></asp:MenuItem>
+                    </asp:MenuItem>
+                    <asp:MenuItem ImageUrl="~/Setup/Images/sub-menu-alt-24.png" NavigateUrl="~/Setup/CoursesUnitsTitles.aspx"
+                        Text="&amp;nbsp;Courses Units Titles" Value="0"></asp:MenuItem>
+                </asp:MenuItem>
+                <asp:MenuItem ImageUrl="~/Setup/Images/sub-menu-alt-24.png" Text="&amp;nbsp;Assessment Settings"
+                    Value="0">
+                    <asp:MenuItem ImageUrl="~/Setup/Images/sub-menu-alt-24.png" NavigateUrl="~/Setup/AssessmentTypesGlobal.aspx"
+                        Text="&amp;nbsp;Global Assessment Types" Value="0"></asp:MenuItem>
+                    <asp:MenuItem ImageUrl="~/Setup/Images/sub-menu-alt-24.png" NavigateUrl="~/Setup/AssessmentTypesSchools.aspx"
+                        Text="&amp;nbsp;School Assessment Types" Value="0"></asp:MenuItem>
+                    <asp:MenuItem ImageUrl="~/Setup/Images/sub-menu-alt-24.png" NavigateUrl="~/Setup/AssessmentTypesSections.aspx"
+                        Text="&amp;nbsp;Section Assessment Types" Value="0"></asp:MenuItem>
+                    <asp:MenuItem ImageUrl="~/Setup/Images/sub-menu-alt-24.png" NavigateUrl="~/Setup/Assessments.aspx"
+                        Text="&amp;nbsp;Given Assessments" Value="0">
+                        <asp:MenuItem ImageUrl="~/Setup/Images/sub-menu-alt-24.png" NavigateUrl="~/Setup/AssessmentsStudentsAnswers.aspx"
+                            Text="&amp;nbsp;Assessments Student Answers" Value="0"></asp:MenuItem>
+                        <asp:MenuItem ImageUrl="~/Setup/Images/sub-menu-alt-24.png" NavigateUrl="~/Setup/AssessmentsMarks.aspx"
+                            Text="&amp;nbsp;Assessments Marks" Value="&amp;nbsp;Assessments Marks"></asp:MenuItem>
+                    </asp:MenuItem>
+                </asp:MenuItem>
+                <asp:MenuItem ImageUrl="~/Setup/Images/sub-menu-alt-24.png" NavigateUrl="~/Setup/Assignments.aspx"
+                    Text="&amp;nbsp;Assignments" Value="0"></asp:MenuItem>
+                <asp:MenuItem ImageUrl="~/Setup/Images/sub-menu-alt-24.png" NavigateUrl="~/Setup/AttendanceTypes.aspx"
+                    Text="&amp;nbsp;Attendance Types" Value="0"></asp:MenuItem>
+                <asp:MenuItem ImageUrl="~/Setup/Images/sub-menu-alt-24.png" Text="&amp;nbsp;Data Import"
+                    Value="0">
+                    <asp:MenuItem ImageUrl="~/Setup/Images/sub-menu-alt-24.png" NavigateUrl="~/Setup/ImportDataStaff.aspx"
+                        Text="&amp;nbsp;Import Staff" Value="0"></asp:MenuItem>
+                    <asp:MenuItem ImageUrl="~/Setup/Images/sub-menu-alt-24.png" NavigateUrl="~/Setup/ImportDataStudent.aspx"
+                        Text="&amp;nbsp;Import Students" Value="0"></asp:MenuItem>
+                    <asp:MenuItem ImageUrl="~/Setup/Images/sub-menu-alt-24.png" NavigateUrl="~/Setup/ImportAssessmentResults.aspx"
+                        Text="&amp;nbsp;Assessment Results" Value="0"></asp:MenuItem>
+                    <asp:MenuItem ImageUrl="~/Setup/Images/sub-menu-alt-24.png" NavigateUrl="~/Setup/ImportAssessmentQuestions.aspx"
+                        Text="&amp;nbsp;Assessment Questions" Value="0"></asp:MenuItem>
+                    <asp:MenuItem ImageUrl="~/Setup/Images/sub-menu-alt-24.png" NavigateUrl="~/Setup/ImportGeneralTestResults.aspx"
+                        Text="&amp;nbsp;General Tests Results" Value="0"></asp:MenuItem>
+                    <asp:MenuItem ImageUrl="~/Setup/Images/sub-menu-alt-24.png" NavigateUrl="~/Setup/ImportGeneralTestQuestions.aspx"
+                        Text="&amp;nbsp;General Tests Questions" Value="0"></asp:MenuItem>
+                </asp:MenuItem>
+                <asp:MenuItem ImageUrl="~/Setup/Images/sub-menu-alt-24.png" NavigateUrl="~/Setup/DataSyncSettings.aspx"
+                    Text="&amp;nbsp;Data Sync Settings" Value="0"></asp:MenuItem>
+                <asp:MenuItem ImageUrl="~/Setup/Images/sub-menu-alt-24.png" NavigateUrl="~/Setup/DateTimeSettings.aspx"
+                    Text="&amp;nbsp;Date / Time Settings" Value="0"></asp:MenuItem>
+                <asp:MenuItem ImageUrl="~/Setup/Images/sub-menu-alt-24.png" NavigateUrl="~/Setup/Timeline.aspx"
+                    Text="&amp;nbsp;DashBoard Timeline" Value="0"></asp:MenuItem>
+                <asp:MenuItem ImageUrl="~/Setup/Images/sub-menu-alt-24.png" NavigateUrl="~/Setup/DisciplineTypes.aspx"
+                    Text="&amp;nbsp;Discipline Types" Value="0"></asp:MenuItem>
+                <asp:MenuItem ImageUrl="~/Setup/Images/sub-menu-alt-24.png" NavigateUrl="~/Setup/HelpDesk.aspx"
+                    Text="&amp;nbsp;Help Desk Messages" Value="0"></asp:MenuItem>
+                <asp:MenuItem ImageUrl="~/Setup/Images/sub-menu-alt-24.png" Text="&amp;nbsp;Membership Settings"
+                    Value="0">
+                    <asp:MenuItem ImageUrl="~/Setup/Images/sub-menu-alt-24.png" NavigateUrl="~/Setup/ManageRoles.aspx"
+                        Text="&amp;nbsp;Manage Roles" Value="0"></asp:MenuItem>
+                    <asp:MenuItem ImageUrl="~/Setup/Images/sub-menu-alt-24.png" NavigateUrl="~/Setup/ManageUsers.aspx"
+                        Text="&amp;nbsp;Manage Users" Value="0"></asp:MenuItem>
+                    <asp:MenuItem ImageUrl="~/Setup/Images/sub-menu-alt-24.png" NavigateUrl="~/Setup/ManageStaff.aspx"
+                        Text="&amp;nbsp;Manage Staff" Value="0"></asp:MenuItem>
+                    <asp:MenuItem ImageUrl="~/Setup/Images/sub-menu-alt-24.png" NavigateUrl="~/Setup/ManageStudents.aspx"
+                        Text="&amp;nbsp;Manage Students" Value="0">
+                        <asp:MenuItem ImageUrl="~/Setup/Images/sub-menu-alt-24.png" NavigateUrl="~/Setup/Students.aspx"
+                            Text="&amp;nbsp;All Students" Value="&amp;nbsp;All Students"></asp:MenuItem>
+                    </asp:MenuItem>
+                    <asp:MenuItem ImageUrl="~/Setup/Images/sub-menu-alt-24.png" NavigateUrl="~/Setup/ManageParents.aspx"
+                        Text="&amp;nbsp;Manage Parents" Value="0"></asp:MenuItem>
+                    <asp:MenuItem ImageUrl="~/Setup/Images/sub-menu-alt-24.png" NavigateUrl="~/Setup/ManageTrainees.aspx"
+                        Text="&amp;nbsp;Manage Trainees" Value="0"></asp:MenuItem>
+                    <asp:MenuItem ImageUrl="~/Setup/Images/sub-menu-alt-24.png" Text="&amp;nbsp;Manage Passwords"
+                        Value="0" NavigateUrl="~/Setup/ManageUserPasswords.aspx"></asp:MenuItem>
+                    <asp:MenuItem ImageUrl="~/Setup/Images/sub-menu-alt-24.png" NavigateUrl="~/Setup/ManageUserEmails.aspx"
+                        Text="&amp;nbsp;Manage E-Mails" Value="0"></asp:MenuItem>
+                </asp:MenuItem>
+                <asp:MenuItem ImageUrl="~/Setup/Images/sub-menu-alt-24.png" Text="&amp;nbsp;Mitra Pasiad Exams"
+                    Value="0">
+                    <asp:MenuItem ImageUrl="~/Setup/Images/sub-menu-alt-24.png" NavigateUrl="~/Setup/GeneralTests.aspx"
+                        Text="&amp;nbsp;Exam Settings" Value="0"></asp:MenuItem>
+                    <asp:MenuItem ImageUrl="~/Setup/Images/sub-menu-alt-24.png" NavigateUrl="~/Setup/GeneralTestsStudentsAnswers.aspx"
+                        Text="&amp;nbsp;Student Answers" Value="0"></asp:MenuItem>
+                    <asp:MenuItem ImageUrl="~/Setup/Images/sub-menu-alt-24.png" NavigateUrl="~/Setup/GeneralTestsUploads.aspx"
+                        Text="&amp;nbsp;Confirm Uploads" Value="0"></asp:MenuItem>
+                </asp:MenuItem>
+                <asp:MenuItem ImageUrl="~/Setup/Images/sub-menu-alt-24.png" NavigateUrl="~/Setup/LevelClasses.aspx"
+                    Text="&amp;nbsp;School Level Classes" Value="0"></asp:MenuItem>
+                <asp:MenuItem ImageUrl="~/Setup/Images/sub-menu-alt-24.png" NavigateUrl="~/Setup/StudySkills.aspx"
+                    Text="&amp;nbsp;Study Skills" Value="&amp;nbsp;Study Skills"></asp:MenuItem>
+                <asp:MenuItem ImageUrl="~/Setup/Images/sub-menu-alt-24.png" Text="&amp;nbsp;System Reports"
+                    Value="0">
+                    <asp:MenuItem ImageUrl="~/Setup/Images/sub-menu-alt-24.png" NavigateUrl="~/Setup/UserReports.aspx"
+                        Text="&amp;nbsp;User Reports" Value="0"></asp:MenuItem>
+                </asp:MenuItem>
+            </Items>
+        </asp:Menu>
+    </div>
+    <div class="content-right">
+        <h2>
+            SETTINGS</h2>
+        <asp:ContentPlaceHolder ID="ChildContent" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+</asp:Content>

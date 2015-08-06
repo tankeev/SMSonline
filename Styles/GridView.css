@@ -1,0 +1,35 @@
+﻿.GridView
+{
+    font-family: verdana;
+    font-size: x-small;
+    border: solid 1px #ad9e87;
+}
+.GridViewHeader
+{
+    background: #e1d6c7 url(   '~/images/GridViewBg.gif' ) repeat-x;
+    border-right-color: #ad9e87;
+    border-bottom-color: #ad9e87;
+    color: #59483f;
+    height: 30px;
+}
+
+.GridViewRow
+{
+
+    height: 25px;
+}
+
+.GridViewAlternatingRow
+{
+    background-color: #EAEAEA;
+}
+
+.GridViewPager
+{
+    background: #e1d6c7 url(   '~/images/GridViewBg.gif' ) repeat-x;
+    border-right-color: #ad9e87;
+    border-bottom-color: #ad9e87;
+    color: #59483f;
+    height: 30px;
+    font-weight: bold;
+}

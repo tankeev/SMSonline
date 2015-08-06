@@ -1,0 +1,33 @@
+﻿<%@ Master Language="VB" CodeFile="Profile.master.vb" Inherits="Profile_Profile"
+    MasterPageFile="~/Site.Master" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
+</asp:Content>
+<asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
+    <div class="content-left">
+        <h2>
+            PROFILE</h2>
+        <br />
+        <asp:Menu ID="MenuMainGeneral" runat="server" ForeColor="Maroon">
+            <Items>
+                <asp:MenuItem ImageUrl="~/Profile/Images/menu-alt-24.png" NavigateUrl="~/Profile/InBox.aspx"
+                    Text="&amp;nbsp;Message Box" Value="&amp;nbsp;Message Box"></asp:MenuItem>
+                <asp:MenuItem ImageUrl="~/Profile/Images/menu-alt-24.png" NavigateUrl="~/Profile/Profile.aspx"
+                    Text="&amp;nbsp;Edit Your Profile" Value="&amp;nbsp;Edit Your Profile"></asp:MenuItem>
+                <asp:MenuItem ImageUrl="~/Profile/Images/menu-alt-24.png" NavigateUrl="~/Profile/ChangeEMail.aspx"
+                    Text="&amp;nbsp;Change E-Mail" Value="&amp;nbsp;Change E-Mail"></asp:MenuItem>
+                <asp:MenuItem ImageUrl="~/Profile/Images/menu-alt-24.png" NavigateUrl="~/Profile/ChangePassword.aspx"
+                    Text="&amp;nbsp;Change Password" Value="&amp;nbsp;Change Password"></asp:MenuItem>
+            </Items>
+        </asp:Menu>
+        <br />
+    </div>
+    <div class="content-right">
+        <h2>
+            &nbsp;
+        </h2>
+        <asp:ContentPlaceHolder ID="ChildContent" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+</asp:Content>

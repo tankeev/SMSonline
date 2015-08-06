@@ -1,0 +1,46 @@
+﻿<%@ Master Language="VB" CodeFile="Default.master.vb" Inherits="Setup_Master" MasterPageFile="~/Site.Master" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
+    <asp:ContentPlaceHolder ID="ChildHead" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
+    <div id="right_wrap">
+        <div id="right_content">
+            <h2>
+                &nbsp;</h2>
+            <asp:UpdatePanel ID="UpdatePanelMaster" runat="server" UpdateMode="Conditional">
+                <ContentTemplate>
+                    <asp:ContentPlaceHolder ID="ChildContent" runat="server">
+                    </asp:ContentPlaceHolder>
+                </ContentTemplate>
+            </asp:UpdatePanel>
+        </div>
+    </div>
+    <div class="sidebar" id="sidebar">
+        <h2>
+            STATISTICS</h2>
+        <div id="divSideMenuGeneral" class="divSideMenu">
+            <asp:Menu ID="MenuMainGeneral" runat="server" ForeColor="Maroon">
+                <Items>
+                    <asp:MenuItem ImageUrl="~/Setup/Images/sub-menu-alt-24.png" Text="System Users" Value="0"
+                        NavigateUrl="~/Administrators/StatisticsUserActivity.aspx"></asp:MenuItem>
+                    <asp:MenuItem ImageUrl="~/Setup/Images/sub-menu-alt-24.png" Text="School Staff" Value="0"
+                        NavigateUrl="~/Administrators/StatisticsStaff.aspx"></asp:MenuItem>
+                    <asp:MenuItem ImageUrl="~/Setup/Images/sub-menu-alt-24.png" Text="School Students"
+                        Value="0" NavigateUrl="~/Administrators/StatisticsStudents.aspx"></asp:MenuItem>
+                    <asp:MenuItem ImageUrl="~/Setup/Images/sub-menu-alt-24.png" Text="Section Courses"
+                        Value="0" NavigateUrl="~/Administrators/StatisticsCourses.aspx"></asp:MenuItem>
+                    <asp:MenuItem ImageUrl="~/Setup/Images/sub-menu-alt-24.png" Text="Given Assessments"
+                        Value="0" NavigateUrl="~/Administrators/StatisticsAssessments.aspx"></asp:MenuItem>
+                    <asp:MenuItem ImageUrl="~/Setup/Images/sub-menu-alt-24.png" Text="Student Registration"
+                        Value="0" NavigateUrl="~/Administrators/StatisticsRegistration.aspx"></asp:MenuItem>
+                </Items>
+            </asp:Menu>
+        </div>
+        <br />
+    </div>
+    <div class="clear">
+    </div>
+</asp:Content>

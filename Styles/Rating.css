@@ -1,0 +1,35 @@
+﻿.blankstar
+
+{
+
+background-image: url(../images/blank_star.png);
+
+width: 16px;
+
+height: 16px;
+
+}
+
+.waitingstar
+
+{
+
+background-image: url(../images/half_star.png);
+
+width: 16px;
+
+height: 16px;
+
+}
+
+.shiningstar
+
+{
+
+background-image: url(../images/shining_star.png);
+
+width: 16px;
+
+height: 16px;
+
+}

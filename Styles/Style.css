@@ -1,0 +1,272 @@
+body
+{
+    background: #274257;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    min-width: 1000px; 
+}
+
+.wrapper
+{
+    margin: 0 auto;
+    width: 960px;
+    text-align: left;
+}
+
+.header
+{
+    text-align: justify;
+    letter-spacing: 1px;
+    height: 8em;
+    padding: 2em 10%;
+    background: #2c3e50;
+    color:#fff;
+}
+
+.header-upper
+{
+
+    width: 960px;
+}
+
+.header-controls
+{
+  
+    bottom: 0px;
+    position: absolute;
+}
+
+.content
+{
+    width: 940px;
+    margin: 10px 0px 0px 0px;
+    padding: 0px 10px 10px 10px;
+    border: 1px solid #644436;
+    background: #FFFFFF;
+    overflow: auto;
+}
+
+.footer
+{
+
+    height: 50px;
+    background-color: #DFC184;
+    border: 1px solid #644436;
+    margin-top: 10px;
+    clear: both;
+    width: 945px;
+    bottom: 0px;
+    line-height: 40px;
+    padding-left: 15px;   
+
+}
+
+.header-logo
+{
+    font-size: 32px;
+    float: left;
+    padding: 25px 0 0 15px;
+    text-decoration: none;
+    color: #644436;
+}
+
+.header-logo a
+{
+    color: #990000;
+    font-family: 'Belgrano' , serif;
+    text-decoration: none;
+}
+
+
+.header-login
+{
+    float: right;
+    padding: 25px 15px 0 0;
+}
+
+.header-login a
+{
+    margin: 0 0 0 5px;
+    color: #000000;
+    font-weight: bold;
+}
+
+
+.header-menu ul li a
+{
+    color: #000;
+    background-color: #DFC184;
+    padding: 7px 12px 5px 12px;
+    margin: 0 4px 0 0;
+    border-style: solid;
+    border-width: 1px 1px 0px 1px;
+    border-color: #644436;
+    -moz-border-radius-topleft: 6px;
+    -webkit-border-top-left-radius: 6px;
+    -khtml-border-top-left-radius: 6px;
+    border-top-left-radius: 6px;
+    -moz-border-radius-topright: 6px;
+    -webkit-border-top-right-radius: 6px;
+    -khtml-border-top-right-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.header-menu ul li a:hover
+{
+    background-color: #8F6048;
+}
+
+.header-first
+{
+    width: 958px;
+    border-width: 1px;
+    border-color: #644436;
+    background-color: #8F6048;
+    border-top-style: solid;
+}
+
+.header-second
+{
+    width: 958px;
+    border-width: 1px;
+    border-color: #333333;
+    background-color: #DFC184;
+    border-bottom-style: solid;
+}
+
+
+.content-left
+{
+    width: 240px;
+    float: left;
+}
+
+.content-right
+{
+     width: 680px;
+     float: right;
+}
+
+.content h2
+{
+    margin: 10px 0px 0px 0px;
+    padding: 10px 0px 10px 10px;
+    
+    -moz-border-radius-topleft: 6px;
+    -webkit-border-top-left-radius: 6px;
+    -khtml-border-top-left-radius: 6px;
+    
+    border-top-left-radius: 6px;
+    -moz-border-radius-topright: 6px;
+    -webkit-border-top-right-radius: 6px;
+    -khtml-border-top-right-radius: 6px;
+    
+    border-top-right-radius: 6px;
+    background-color: #8F6048;
+    background-image: linear-gradient(to bottom, #8F6048, #644436);
+    color: #DFC184;
+    font-size: 12px;
+    font-weight: bold;
+    text-shadow: 1px 1px #000000;
+    border-bottom: 1px #644436 solid;
+}
+
+.content-table
+{
+    margin: 0px 10px 0 0px;
+    padding: 0px 0 0px 10px;
+    
+    font-size: 12px;
+    font-weight: bold;
+    
+    color: #274257;
+    text-shadow: 0 1px #e3f1f1;
+    
+    border: 1px solid;
+    border-color: #b4ccce #b3c0c8 #9eb9c2;
+    border-radius: 5px;  
+    
+    background-image: linear-gradient(to bottom, #edf5f8, #cde5ef);
+    
+    -webkit-box-shadow: inset 0 1px white, 0 1px 2px rgba(0, 0, 0, 0.15);
+    
+    box-shadow: inset 0 1px white, 0 1px 2px rgba(0, 0, 0, 0.15);
+}
+
+.content-listbox
+{
+
+    font-size: 11px;
+    color: #644436;
+}
+
+.content-dropdownlist
+{
+    font-size: 11px;
+    color: #644436;
+}
+
+.content-textbox
+{
+    border: 1px solid #c4c4c4;
+    font-size: 11px;
+    color: #644436;
+    padding: 4px 4px 4px 4px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 0px 0px 8px #d9d9d9;
+    -moz-box-shadow: 0px 0px 8px #d9d9d9;
+    -webkit-box-shadow: 0px 0px 8px #d9d9d9;
+} 
+
+.content-label
+{
+    font-size: 11px;
+    color: #644436;
+}
+
+.content-checkbox
+{
+
+    font-size: 10px;
+    color: #644436;
+}
+
+.content-checkbox-list
+{
+
+    font-size: 10px;
+    color: #644436;
+}
+
+.content-radiobuttonlist
+{
+
+    font-size: 10px;
+    color: #644436;
+}
+
+
+
+a:link
+{
+    color: #2A75A9;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #274257;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #7EB5D6;
+    text-decoration: none;
+}
+
+a:active {
+    color: #7EB5D6;
+    text-decoration: none;
+}
